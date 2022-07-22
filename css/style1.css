@@ -1,0 +1,92 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* .first{
+    display: block;
+    position: absolute;
+    background: url("img/backg.png");
+    margin: 0;
+    padding: 0;
+    height:2000px;
+} */
+/* .first img{
+    position:relative;
+} */
+
+.nav{
+    position: absolute;
+    margin: 30px 25px;
+    padding: 0;
+    height: 100px;
+}
+
+.navbar{
+    display: block;
+    /* position: absolute; */
+    width: 50%;
+    margin: 30px 380px;
+}
+
+header{
+    height: 600px;
+    background: url("img/iitOff1.jpg") no-repeat;
+    background-size:cover;
+    margin: 20px 0px;
+}
+/* .photo{
+    position: absolute;
+    left: 1010px;
+    top: 220px;
+} */
+
+.intro{
+    position: absolute;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    width: 60%;
+    margin: 220px 270px;
+    font-size: 20px;
+    background: rgba(128, 128, 128, 0.459);
+    border-radius: 10px;
+}
+.intro h1{
+    color:white;
+    text-align: center;
+    width: 100%;
+    margin: 30px auto;
+    padding: 10px auto;
+}
+
+.intro p{
+    text-align: center;
+    color:rgba(211, 211, 211, 0.954);
+    padding: 30px 10px;
+}
+
+ul li{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    display: inline;
+    margin: 10px;
+    padding: 10px;
+    font-weight: bolder;
+    color:black
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+a:hover{
+    color: rgb(33, 124, 184);
+}
+
+
+
+.back{
+    margin: 30px 25px;
+    padding: 0;
+    position: absolute;
+    right: 0px;
+}

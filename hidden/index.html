@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+
+    <style>
+      #container {
+        /* background-color: lime; */
+        position: absolute;
+        top: 40px; left: 40px;
+        width: 150px;
+        height: 150px;
+        border-radius: 50%;
+        border-color: rgb(12, 139, 230); 
+        border-style: solid;
+        border-width: 4px;
+        z-index: 1;
+
+        
+      }
+
+      #hidden-div {
+        visibility: hidden;
+        /* background-color: salmon; */
+        color: white;
+        /* width: 390px; */
+        width: max-content;
+        height: 150px;
+        position: absolute;
+        top: 40px; left: 115px;
+        /* border-radius: 30px; */
+        border-style: solid;
+        border-width: 4px;
+        border-color: rgb(12, 139, 230);
+        text-align: left;
+        font: italic 1.2em "Fira Sans", serif;
+        border-left: 4px;
+        color: black;
+        vertical-align: middle;
+        z-index: 2;
+        padding-right: 10px;
+      }
+
+    </style>
+  </head>
+
+  <body>
+    <div class="Photos">
+      <div id="container">
+          <div id="imgage">
+              <img src="/Testing/img/farangis2.png" alt="img" 
+              height="150"
+              width="150" >
+          </div> 
+      </div>
+      <div id="hid">
+          <div id="hidden-div">
+              <pre>
+              Farangis
+              (PhD. Student)
+              Address: IIT Bombay, Powai, Mumbai 400076
+              Phone:+91 (22) 2572---
+              E-mail:-@iitb.ac.in
+              </pre>
+              </div> 
+      </div>
+    </div>
+  
+    
+
+
+    <script src="index.js"></script>
+  </body>
+</html>

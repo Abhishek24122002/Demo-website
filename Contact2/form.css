@@ -1,0 +1,147 @@
+
+/* Below line is write to use Google font online */
+@import "http://fonts.googleapis.com/css?family=Ubuntu";
+div#main{
+/* width:850px;
+height:850px; */
+margin-right: 70px;
+font-family:'Ubuntu',sans-serif
+}
+div#form_sample{
+text-align:center;
+border:1px solid #ccc;
+width:300px;
+padding: 30px 50px 30px;
+margin-top:20px;
+box-shadow:0 0 15px;
+border-radius:50px;
+float:right
+/* position: absolute; */
+/* top: 100px;
+    right: 150px; */
+}
+
+/* #form_sample{
+    float: right;
+    border-radius: 100px;
+} */
+#main h1{
+margin-top:40px
+}
+hr{
+margin-top:10px;
+}
+label{
+float:left;
+font-size:16px
+}
+input[type="text"]{
+width:92%;
+margin-top:10px;
+height:35px;
+margin-bottom:25px;
+padding:10px;
+border:3px solid #2b9ff2
+}
+textarea{
+width:92%;
+border:3px solid #2b9ff2;
+padding:10px;
+margin-bottom:25px;
+margin-top:10px;
+height:100px;
+resize:none
+}
+input[type="submit"]{
+/* width:100%; */
+padding:10px 45px;
+background-color:#2b9ff2;
+border-radius: 20px;
+color:#fff;
+font-size:18px;
+font-weight:700;
+cursor:pointer;
+font-family:'Ubuntu',sans-serif
+}
+/* -------------------------------------
+CSS for Sidebar (optional)
+---------------------------------------- */
+div#fugo{
+float:right
+}
+
+
+/* contact */
+.chip {
+    position: relative;
+    display: inline-block;
+    padding: 0 25px;
+    height: 55px;
+    font-size: 16px;
+    line-height: 50px;
+    /* border-radius: 7px; */
+    /* background-color: #f1f1f1; */
+    background-origin: padding-box;
+    width: 301px;
+    margin-bottom: 20px;
+    /* border-style:solid;
+    border-color: #2b9ff2; */
+  }
+
+  
+  .chip img {
+    float: left;
+    margin: 0 0 0 -25px;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    border-width: 3px;
+    border-style: solid ;
+    border-color: #2b9ff2;
+    
+
+  }
+
+  .container{
+    margin: 48px;
+    position: relative;
+    margin-left: 15%;
+    margin-top: 10%;
+    width: fit-content;
+  }
+
+
+
+
+/* Border */
+
+.chip {
+    /* position: relative; */
+    border-radius: 7px;
+    width: 301px;
+    height: 56px;
+    padding: 0 25px;
+    margin-bottom: 20px;
+    
+    border: none;
+    text-align: center;
+}
+.chip::before,
+.chip::after {
+    position: absolute;
+    width: 320px;
+    height: 52px;
+    content: "";
+}
+.chip::before {
+    left: 30px;
+    top: 0;
+    border-top: 3px solid #2b9ff2;
+}
+.chip::after {
+    right: 0;
+    bottom: 0;
+    border-right: 3px solid #2b9ff2;
+    border-bottom: 3px solid #2b9ff2;
+}
+

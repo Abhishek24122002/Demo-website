@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <html>
+  <input type="text" value="Hello world"(Can be of your choice) id="myInput"(id is the name of the text, you can change it later)
+<button onclick="Hello()">Copy Text</button>
+
+<script>
+  function Hello() {
+  var copyText = document.getElementById('myInput')
+  copyText.select();
+  document.execCommand('copy')
+  console.log('Copied Text')
+}
+</script>
+
+</body>
+</html>

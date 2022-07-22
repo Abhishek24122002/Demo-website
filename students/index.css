@@ -1,0 +1,63 @@
+body {
+  margin: 0;
+  background: #fff;
+  font-family: sans-serif;
+  /* background: linear-gradient(120deg, #5c2fa6 13.57%, #5a36c0 98.38%); */
+  scroll-behavior: none;
+}
+
+.title {
+  font-size: max(2vw, 24px);
+  line-height: 1.1;
+  padding-bottom: 0.4em;
+  color: white;
+  text-shadow: 0 2px 2px rgba(0, 0, 0, 0.1);
+}
+
+.text {
+  font-size: max(1vw, 15px);
+  line-height:3;
+  overflow: hidden;
+  padding-bottom: 20px;
+  color: rgba(255, 255, 255, 0.7);
+}
+
+.accordions {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 20vh;
+}
+
+.accordion {
+  background: linear-gradient(200deg, #1d91fc 13.57%, #5a36c0 98.38%);
+  width: max(50vw, 280px);
+  padding: 25px 30px 10px;
+  border-radius: 15px;
+  margin-bottom: 40px;
+  box-shadow: 0 30px 30px -10px rgba(0, 0, 0, 0.3);
+}
+.accordion:nth-child(2) {
+  background: linear-gradient(200deg, #0037ff 13.57%, #8bdaee 98.38%);
+}
+.accordion:nth-child(3) {
+  background: linear-gradient(200deg, #833cd3 13.57%, #5b9af8 98.38%);
+}
+.accordion:nth-child(4) {
+  background: linear-gradient(200deg, #0b3ca8 13.57%, #28282B 98.38%);
+}
+
+.spacer {
+  height: 30px;
+}
+
+@media (max-width: 480px) {
+  .accordion {
+    padding: 15px 20px 8px;
+  }
+
+  .title {
+    font-size: 20px;
+    
+  }
+}
